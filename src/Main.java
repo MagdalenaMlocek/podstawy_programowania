@@ -41,11 +41,31 @@ public class Main {
 //                        System.out.println("SystemDziala1");
 //                    }
 //                }
+//
+//                Scanner skaner = new Scanner(System.in);
+//                System.out.println("Wpisz swoje imie");
+//                String userInputName = skaner.nextLine();
+//                System.out.println("Wpisz swoje nazwisko");
+//                String userInputSurname = skaner.nextLine();
+//                System.out.println("Witaj" + userInputName + " " + userInputSurname + "!");
+//
+//                int number = 3;
+//                int number2;
+//                System.out.println(number++);
+//                System.out.println(++number);
+//                System.out.println(number);
+//                number2 = number++;
+//                System.out.println(++number2);
+//                number2 = ++number;
+//                System.out.println(number2);
+//                System.out.println(++number2);
 
-                Scanner skaner = new Scanner(System.in);
-                String userImput = skaner.nextLine();
-                System.out.println(userImput);
 
+                String[] nameTable = new String[4];
+                String[] nameTableBio = {"Magda", "Anna", "Joanna", "Tomasz"};
+                for (int i = 0; i < nameTableBio.length; i++){
+                    System.out.println(nameTableBio[i]);
+                }
 
     }
 
