@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -61,10 +62,11 @@ public class Main {
 //                System.out.println(++number2);
 
 
+                ArrayList<String> arrayList = new ArrayList<>();
                 String[] nameTable = new String[4];
                 String[] nameTableBio = {"Magda", "Anna", "Joanna", "Tomasz"};
                 for (int i = 0; i < nameTableBio.length; i++){
-                    System.out.println(nameTableBio[i]);
+                    nameTable.
                 }
 
     }
